@@ -13,7 +13,7 @@ Monsters are randomly placed in the dungeon. When a monster is adjacent to a pla
 another player). If a monster's hp reaches 0, it will be removed from the dungeon.
 If the player's hp reaches 0 the player dies and cannot participate in the game anymore. If both players die, the game ends; the monsters win.
 
-  * |  MD instance with lots of monsters |
+|  MD instance with lots of monsters |
 |--|
 |![screenshot-2](./assets/ss2.png)|
 
@@ -38,15 +38,15 @@ You can configure how many mazes you have, how many monsters, how many healing p
 
 ### Other screenshots:
 
-* | An instance with a twisting maze |
+| An instance with a twisting maze |
 |--|
 | ![screenshot-1](./assets/ss1.png) |
 
-* | An instance with a large maze |
+| An instance with a large maze |
 |--|
 | ![screenshot-3](./assets/ss3.png) |
 
-* | Imposing limited visibility |
+| Imposing limited visibility |
 |---|
 | ![screenshot-4](./assets/ss4.png) |
 
