@@ -29,11 +29,15 @@ There are _scrolls_ and _potions_ randomly dropped in the dungeon. When the play
 |---|---|---|---|---|---|---|
 | **Frodo** | **Smeagol** | **Healing Potion** (Yum...) | **Rage Potion** (Roar!) | **Scroll** | **Shrine** | **Monster** |
 
+### How to build the project
+
+Build with Maven. Just do `mvn compile`.
+
 ### How to run the game
 
-Just run the class `DungeonApp`. It has a `main()` method.
+Just run the class `DungeonApp`. It has a `main()` method. You can use Maven to run it. After you built the project (`mvn compile`), you can do `mvn exec:java` to run DungeonApp.
 
-You can configure how many mazes you have, how many monsters, how many healing potions, and so on. The code in the `main()` shows how to configure the game.
+You can configure how many mazes you have, how many monsters, how many healing potions, and so on. The code in the `main()` shows how to configure the game:
 
 ```java
 public static void main(String[] args) throws Exception {		
