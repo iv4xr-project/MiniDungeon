@@ -75,6 +75,16 @@ public static void main(String[] args) throws Exception {
 |---|
 | ![screenshot-4](./assets/ss4.png) |
 
+#### Adding more maze shapes
+
+Mazes in MiniDungeon is always rectangular NxN. The game can generate
+a simple twisting maze, but if you want to create your own maze, check
+the class `eu.iv4xr.minidungeon.Maze`. You need to implement a method
+similar to the method `buildSimpleMaze()` defined in the class.
+Such a constructor is invoked in the constructor of the class `MiniDungeon()`.
+Check where the method `buildSimpleMaze()` method in invoked there, and
+then you can hook in your own maze constructor.
+
 
 #### Author
 
