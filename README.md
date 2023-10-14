@@ -86,10 +86,6 @@ Check where the method `buildSimpleMaze()` method in invoked there, and
 then you can hook in your own maze constructor.
 
 
-#### Author
+##### Author: Wooshrow
 
-Wooshrow
-
-#### License
-
-3-clause BSD
+##### License: 3-clause BSD
